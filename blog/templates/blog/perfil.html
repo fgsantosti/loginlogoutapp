@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Perfil User</title>
+</head>
+<body>
+	<h3>Hello my friend {{user.username}}</h3>
+	<p>{{user.email}}</p>
+
+	<a href="{% url 'logout_view' %}">logout</a>
+</body>
+</html>
